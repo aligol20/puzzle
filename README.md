@@ -6,7 +6,6 @@ Currently available for Android and iOS
 
 
  
-====
 
 a tile puzzle interface that consists of a frame divided into even tiles with one tile missing. These tiles should then be randomised so that user interaction is required to resolve the original frame. Tiles may only be moved into the empty position.
 ----
@@ -15,13 +14,9 @@ a tile puzzle interface that consists of a frame divided into even tiles with on
 
 #### 1. Install dependencies
 - `git clone https://github.com/aligol20/puzzle.git`
-##### 2. Install server dependencies
-- `cd server`
-- `npm install`
-- `npm start`
-##### 3. Install React-native dependencies
+##### 2. Install React-native dependencies
 - `cd public`
-- `cd AsciiFacesStore`
+- `cd Puzzle`
 - `npm install`
 - `cd ios`
 - `pod install`
@@ -36,7 +31,6 @@ a tile puzzle interface that consists of a frame divided into even tiles with on
 - **note**: Be sure your computer and android device are connected to same the WIFI.
 - **note**:  USB debugging mode of physical android device should be enabled. More info at [USB debugging](https://developer.android.com/studio/debug/dev-options):
 - `npx react-native run-android`
-- **Important**: To run the code on an android device, you should change the IP address in 'Url.ts'  file to your computer IP address.
 ### ToDo
 - Adding animation when tiles moving
 
