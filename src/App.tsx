@@ -10,7 +10,7 @@ import {
   Text, View
 } from 'react-native';
 import { Directions, FlingGestureHandler, FlingGestureHandlerEventExtra, GestureHandlerStateChangeNativeEvent, TouchableOpacity } from 'react-native-gesture-handler';
-import { styles } from 'src/styles/Styles';
+import { styles } from './styles/Styles';
 import { correct_coordinate } from './const/CorrectCoordinate';
 import { image_array } from './const/ImageArray';
 import HnadleFling from './functions/HandleFling';
