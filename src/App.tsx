@@ -71,7 +71,6 @@ const App = () => {
     // Then set it to coordinate, we should set it like follow to reRender the UI
     setCoordinate(
       prevState => {
-        console.log(prevState)
         return [...newCoordinate];
       }
     )
@@ -83,7 +82,6 @@ const App = () => {
     // just set the coordinate to correct value
     setCoordinate(
       prevState => {
-        console.log(prevState)
         return [...correct_coordinate];
       }
     )
