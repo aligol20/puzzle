@@ -15,9 +15,8 @@ a tile puzzle interface that consists of a frame divided into even tiles with on
 #### 1. Install dependencies
 - `git clone https://github.com/aligol20/puzzle.git`
 ##### 2. Install React-native dependencies
-- `cd public`
 - `cd Puzzle`
-- `npm install`
+- `yarn install`
 - `cd ios`
 - `pod install`
 - `cd ..`
@@ -32,7 +31,8 @@ a tile puzzle interface that consists of a frame divided into even tiles with on
 - **note**:  USB debugging mode of physical android device should be enabled. More info at [USB debugging](https://developer.android.com/studio/debug/dev-options):
 - `npx react-native run-android`
 ### ToDo
-- Adding animation when tiles moving
+- Adding animation when tiles moving.
+- Improvement in UI.
 
 
 
